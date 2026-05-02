@@ -1,0 +1,90 @@
+.loginForm,.registerForm ,.menu,.addPassForm,.revalidateForm{
+    border-radius: 10px;
+    padding:20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.loginForm form input,.registerForm form input,.addPassForm form input,.revalidateForm form input{
+    display: block;
+    width:100%;
+    padding: 10px 20px; 
+}
+.loginForm form , .registerForm form,.addPassForm form,.revalidateForm form{
+    width:30%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #403f3f8e;
+    padding:20px 50px;
+}
+.loginForm button,.registerForm button{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color:rgba(57, 160, 20, 0.83);
+    border:none;
+    color:antiquewhite;
+    font-weight:bold;
+    font-size: large;
+    cursor:pointer;
+}
+.loginForm button:hover,.registerForm button:hover{
+    background-color: rgba(57, 160, 20, 0.7);
+}
+.newUser,.loginNow,.Logout{
+    text-align: center;
+}
+.newUser button , .loginNow button,.Logout button,.addPassForm button,.revalidateForm button{
+    padding:10px 20px;
+    border-radius: 10px;
+    border:none;
+    background-color: rgba(16, 76, 179, 0.766);
+    cursor:pointer;
+    color:antiquewhite;
+    margin:10px;
+}
+
+.newUser button:hover , .loginNow button:hover,.addPassForm button:hover,.revalidateForm button:hover{
+    background-color: rgba(16, 76, 179, 0.66);
+}
+.menu nav{
+ width:30%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #403f3f8e;
+    padding:20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.showList{
+    background-color: rgba(197, 237, 18, 0.918);
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:none;
+    font-size: larger;
+    font-weight: bold;
+    color:rgb(232, 16, 16);
+    margin-left:43%;
+}
+.showList:hover{
+     background-color: rgba(197, 237, 18, 0.718);
+}
+
+.listItem{
+    border:4px solid black;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin:10px;
+}
+.passList{
+    list-style: none;
+    font-size: large;
+}
+.Logout button:hover{
+    background-color: rgba(255, 0, 0, 0.493);
+}
